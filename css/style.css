@@ -1,0 +1,160 @@
+body {
+	background-color: #D3D3D3;
+	font-family: 'Montserrat', sans-serif;
+	color: #9E9E9E;        /*dark grey*/
+}
+p {
+	padding-bottom: 1px;
+}
+h1 {
+	color: #FF1900;
+}
+h2 {
+	text-align: center;
+	margin: 0;
+}
+h3 {
+	text-align: center;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	padding-left: 15%;
+	color: #9E9E9E;
+}
+ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+li {
+	margin: 0 25px;
+	text-align: center;
+	padding: 10px;
+}
+mark {
+	background-color: #D3D3D3;
+	color: #9E9E9E;
+}
+.imgborder {
+	border-radius: 50%;
+	border: 5px solid #D3D3D3;         /*light grey*/
+	margin-top: 1%;
+}
+.headp {
+	text-align: left;
+	padding-top: 10px;
+}
+.buttnborder {
+	background-color: #FF1900;       /*red*/
+	border: 3px solid #FF1900;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 2%;
+	color: #fff;                   	/*white color*/
+}
+/*head container*/
+
+.headbody {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	background: #fff;            /*white color*/
+}
+.movies {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+}
+/* Social Media Container*/
+
+.socialmedia {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	width: 40%;
+	background: #fff;
+	height: 120px;
+}
+/* Social Media Icons*/
+.fa-facebook-f {
+	color: #D3D3D3;
+	font-size: 40px;
+}
+.fa-linkedin-in {
+	color: #D3D3D3;
+	font-size: 40px;
+}
+.fa-twitter {
+	color: #D3D3D3;
+	font-size: 40px;
+}
+.movies {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2%;
+	margin-left: 25%;
+	width: 40%;
+	background: #fff;
+}
+/*Movie Container*/
+
+.moviecontainer {
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	margin: 0 auto;
+	margin-top: 2%;
+	width: 40%;
+	background: #fff;
+}
+.favoritemovie {
+	padding: 30px;
+}
+.movieOne {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.imgOne, .imgtwo, .imgthree {
+	padding: 10px;
+}
+.textOne {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.movietwo {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.texttwo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.moviethree {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.imgthree {
+	margin: 0;
+}
+.textthree {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
